@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+
+        <title>Casarrubias</title>
+
+        <style>
+            p{
+                margin:0;
+                font-size: 25px;
+            }
+            a{
+                text-decoration: none;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color:rgb(255, 255, 255);     
+                font-size: 17px;          
+            }
+            body{
+                font-family: Roboto;
+                background-color: rgba(24, 24, 24, 0.902);
+                color:white;
+                
+            }
+            .outer-flex-container{
+                display: flex;
+                justify-content: space-between;
+                
+                
+                height: 100px;
+                align-items: center;
+                
+                
+            }
+            .left-section{
+                margin-left: 100px;
+                
+            }
+            .middle-section{
+                display: flex;
+                flex-direction: column;
+               
+         
+            }
+            .right-section{
+                margin-right: 100px;
+                
+
+            }
+            .about-section{
+                background-color: red;
+                margin-top: 2000px;
+            }
+            .contact-button{
+                background-color: rgb(54, 202, 190);
+                width: 100px;
+                height: 35px;
+                border:none;
+                border-radius: 50px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 18px;
+                color: white;
+                transition: all 1.25s ease;
+                
+            }
+            .contact-button:hover{
+                box-shadow: 0px 10px 30px rgba(147, 147, 147, 0.772);
+                cursor: pointer;
+                width: 200px;
+                height: 80px;
+                font-size: 30px;
+            }
+
+            .company-name{
+                font-size: 30px;
+                font-weight: bold;
+                
+     
+            }
+            
+        
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="outer-flex-container">
+
+            <div class="left-section">
+                <p class="company-name">Casarrubias</p>
+            </div>
+
+            <div class="middle-section">
+                <a href="">Services</a>
+                <a href="">Projects</a>
+                <a href="#projects">About</a>
+            </div>
+            <div class="right-section">
+                <button class="contact-button">Contact</button>
+            </div>
+
+        </div>
+
+
+        <div class="about-section">
+            <a name="projects"></a>
+            <h1>This Website is in early developement-----   ™ B.C</h1>
+            <h2>Currently buttons and links DO NOT WORK!</h2>
+        </div>
+       
+    </body>
+</html>
